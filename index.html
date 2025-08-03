@@ -1,0 +1,182 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendship Day for Asmita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav style="background-color: #dda0dd; padding: 1rem; display: flex; justify-content: space-between; align-items: center; font-family: 'Segoe UI', sans-serif; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000;">
+  <div style="font-size: 1.5rem; font-weight: bold; color: white;">💜 Fun And Laugh</div>
+  <div>
+    <a href="index.html" style="margin-right: 1rem; text-decoration: none; color: white; font-weight: 500;">Home</a>
+    <a href="memories.html" style="margin-right: 1rem; text-decoration: none; color: white; font-weight: 500;">Old Memories</a>
+    <a href="games.html" style="text-decoration: none; color: white; font-weight: 500;">Games</a>
+    <a href="message.html" style="margin-right: 1rem; text-decoration: none; color: white; font-weight: 500;">Messages</a>
+  </div>
+</nav>
+<div class="animated-flower">
+  <img src="Tullips__1_-removebg-preview.png" alt="Blooming Flower" />
+</div>
+<style>
+.animated-flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.animated-flower img {
+  width: 600px;
+  height: auto;
+  animation: bloom 4s ease-in-out infinite;
+}
+
+@keyframes bloom {
+  0%, 100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+</style>
+
+
+<main style="text-align: center; font-family: 'Segoe UI', sans-serif; padding: 2rem;">
+  <h1 style="font-size: 2.5rem; color: #6a0dad;">👯‍♀️ Meet the Nausikhiyas💛</h1>
+
+  <div style="margin-top: 2rem;">
+    <h2 style="color: goldenrod">Hello Girlies</h2>
+    <p style="max-width: 600px; margin: auto;">
+       From confused first-timers to legendary mischief-makers — Nausikhiyas, we’ve come a long way! 🎓🤹‍♂️🔥
+    </p>
+       We may not always know what we’re doing… but damn, we do it together, loud, proud, and with style! 😎💥😂
+</div>
+  <div style="margin-top: 3rem;">
+  <h2 style="color: #ff69b4;">🌟 Nausikhiyas🎪</h2>
+  <p style="max-width: 650px; margin: auto;">
+    We may not always know what we’re doing… but damn, we do it together — loud, confused, chaotic, but with full swag 😎🔥<br>
+    From unplanned hangouts to overplanned group projects (that never worked), we did it all. Barely. But beautifully. 😂
+  </p>
+</div>
+
+<div style="margin-top: 2rem;">
+  <h2 style="color: #20c997;">🤣 The Untold Talents of Nausikhiyas 🎭</h2>
+  <p style="max-width: 650px; margin: auto;">
+    We’ve got the fake coders, the midnight philosophers, chai ke devtaas, attendance hackers, and those who still don’t know which subject they’re in. 📚🤯
+    And yes, the one guy who says, "Bhai main toh bas dekh raha tha!" every time. 🙃
+  </p>
+</div>
+
+<div style="margin-top: 2rem;">
+  <p style="max-width: 650px; margin: auto;">
+    Sitting with you people has been like being stuck in a group project where no one works, but somehow we still pass. 💀<br>
+    But let’s be honest — this madness, these jokes, the 0 marks to 10 ke dreams, they’re gonna hit hard once we’re gone.
+  </p>
+</div>
+
+<div style="margin-top: 2rem;">
+  <h2 style="color: #fd7e14;">😢 We’ll Miss This Chaos… Eventually 🥲</h2>
+  <p style="max-width: 650px; margin: auto;">
+    Maybe not today, maybe not tomorrow — but one day, we’ll miss the noise, the dumb fights, the last-bench gossip, and even those *“Bro ye kya ho raha hai?”* moments. 🤪<br>
+    We’ll miss being Nausikhiyas… and honestly, that’s our best role ever. 🎓❤️
+  </p>
+</div>
+
+
+  <div style="margin-top: 3rem;">
+    <button onclick="startPetals()" style="padding: 10px 20px; background-color: #dda0dd; color: white; border: none; border-radius: 10px; font-weight: bold; cursor: pointer;">
+      🌸 Click for some love!
+    </button>
+  </div>
+</main>
+
+
+  <!-- <section class="video-intro">
+    <video autoplay muted loop>
+      <source src="w" type="video/mp4">
+    </video>
+    <img src="Best-Friends-Forever-Wallpaper.jpg" alt=""> -->
+    <audio autoplay loop>
+      <source src="WhatsApp Audio 2025-08-03 at 04.20.13_7fff55cf.mp3" type="audio/mp3">
+    </audio>
+    <div class="overlay-text">
+      <h1>First Meetings are Weirdly Awesome 😅💖</h1>
+      <p>Click below to unlock a surprise</p>
+      <button onclick="document.querySelector('.secret-letter').style.display='block'">Unlock Letter</button>
+    </div>
+  </section>
+
+  <div class="secret-letter">
+    <div class="letter-box">
+      <h2>Dear Girlies 💌</h2>
+      <p>Ever met someone new and immediately forgot their name? Welcome to the club. This page is all about that awkward, funny, aesthetic energy of random new connections and "oh we met before?" moments. 🎉</p>
+    </div>
+  </div>
+  <style>
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+</style>
+
+
+  <script src="effects.js"></script>
+  <script>
+function startPetals() {
+  for (let i = 0; i < 30; i++) {
+    const petal = document.createElement("div");
+    petal.innerText = "🌸";
+    petal.style.position = "fixed";
+    petal.style.top = "-50px";
+    petal.style.left = `${Math.random() * 100}%`;
+    petal.style.fontSize = `${Math.random() * 15 + 15}px`;
+    petal.style.animation = `fall ${Math.random() * 4 + 5}s linear infinite`;
+    document.body.appendChild(petal);
+
+    setTimeout(() => petal.remove(), 10000);
+  }
+}
+</script>
+
+  <script>
+  document.querySelector("button").addEventListener("click", function (e) {
+    e.preventDefault(); // prevent actual form submission
+
+    // Create falling element
+    const emoji = document.createElement("div");
+    emoji.innerText = "💖"; // you can change to 🌸 or 🌼
+    emoji.style.position = "fixed";
+    emoji.style.top = "-50px";
+    emoji.style.left = Math.random() * 90 + "vw";
+    emoji.style.fontSize = "2rem";
+    emoji.style.zIndex = 9999;
+    emoji.style.transition = "top 2s ease-out, opacity 2s ease-out";
+
+    document.body.appendChild(emoji);
+
+    setTimeout(() => {
+      emoji.style.top = "100vh";
+      emoji.style.opacity = 0;
+    }, 100);
+
+    // Remove after animation
+    setTimeout(() => {
+      emoji.remove();
+    }, 2200);
+  });
+</script>
+
+</body>
+</html>
